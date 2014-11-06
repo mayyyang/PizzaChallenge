@@ -32,6 +32,8 @@
 
 - (IBAction)findButton:(UIButton *)sender
 {
+    self.manager.distanceFilter = kCLDistanceFilterNone;
+    self.manager.desiredAccuracy = kCLLocationAccuracyBest;
     [self.manager startUpdatingLocation];
     NSLog(@"help");
 }
@@ -56,7 +58,9 @@
             break;
         }
     }
+    CLLocation *currentLocation = [locations lastObject];
 }
+
 
 - (void)reverseGeocode:(CLLocation *)location
 {
@@ -89,6 +93,10 @@
     }];
 }
 
+-(void)findDistancePizzeria:(CLLocation *)location
+{
+    NSMutableArray *distances = [NSMutableArray array];
+}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -103,4 +111,5 @@
     return cell;
     
 }
+
 @end
