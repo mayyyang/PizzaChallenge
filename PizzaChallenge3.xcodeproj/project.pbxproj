@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FB2D4B3B1A0B1F4B00DEF802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D4B3A1A0B1F4B00DEF802 /* main.m */; };
 		FB2D4B3E1A0B1F4B00DEF802 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D4B3D1A0B1F4B00DEF802 /* AppDelegate.m */; };
-		FB2D4B411A0B1F4B00DEF802 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D4B401A0B1F4B00DEF802 /* ViewController.m */; };
+		FB2D4B411A0B1F4B00DEF802 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D4B401A0B1F4B00DEF802 /* RootViewController.m */; };
 		FB2D4B441A0B1F4B00DEF802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2D4B421A0B1F4B00DEF802 /* Main.storyboard */; };
 		FB2D4B461A0B1F4B00DEF802 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2D4B451A0B1F4B00DEF802 /* Images.xcassets */; };
 		FB2D4B491A0B1F4B00DEF802 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB2D4B471A0B1F4B00DEF802 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		FB2D4B3A1A0B1F4B00DEF802 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB2D4B3C1A0B1F4B00DEF802 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB2D4B3D1A0B1F4B00DEF802 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FB2D4B3F1A0B1F4B00DEF802 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FB2D4B401A0B1F4B00DEF802 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB2D4B3F1A0B1F4B00DEF802 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FB2D4B401A0B1F4B00DEF802 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		FB2D4B431A0B1F4B00DEF802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB2D4B451A0B1F4B00DEF802 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FB2D4B481A0B1F4B00DEF802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				FB2D4B3C1A0B1F4B00DEF802 /* AppDelegate.h */,
 				FB2D4B3D1A0B1F4B00DEF802 /* AppDelegate.m */,
-				FB2D4B3F1A0B1F4B00DEF802 /* ViewController.h */,
-				FB2D4B401A0B1F4B00DEF802 /* ViewController.m */,
+				FB2D4B3F1A0B1F4B00DEF802 /* RootViewController.h */,
+				FB2D4B401A0B1F4B00DEF802 /* RootViewController.m */,
 				FB2D4B421A0B1F4B00DEF802 /* Main.storyboard */,
 				FB2D4B451A0B1F4B00DEF802 /* Images.xcassets */,
 				FB2D4B471A0B1F4B00DEF802 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2D4B411A0B1F4B00DEF802 /* ViewController.m in Sources */,
+				FB2D4B411A0B1F4B00DEF802 /* RootViewController.m in Sources */,
 				FB2D4B3E1A0B1F4B00DEF802 /* AppDelegate.m in Sources */,
 				FB2D4B3B1A0B1F4B00DEF802 /* main.m in Sources */,
 			);
@@ -348,6 +348,7 @@
 				INFOPLIST_FILE = PizzaChallenge3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,6 +359,7 @@
 				INFOPLIST_FILE = PizzaChallenge3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
