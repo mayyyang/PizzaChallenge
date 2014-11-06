@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB2D4B3B1A0B1F4B00DEF802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D4B3A1A0B1F4B00DEF802 /* main.m */; };
+		FB2D4B3E1A0B1F4B00DEF802 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D4B3D1A0B1F4B00DEF802 /* AppDelegate.m */; };
+		FB2D4B411A0B1F4B00DEF802 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D4B401A0B1F4B00DEF802 /* ViewController.m */; };
+		FB2D4B441A0B1F4B00DEF802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2D4B421A0B1F4B00DEF802 /* Main.storyboard */; };
+		FB2D4B461A0B1F4B00DEF802 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2D4B451A0B1F4B00DEF802 /* Images.xcassets */; };
+		FB2D4B491A0B1F4B00DEF802 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB2D4B471A0B1F4B00DEF802 /* LaunchScreen.xib */; };
+		FB2D4B551A0B1F4B00DEF802 /* PizzaChallenge3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D4B541A0B1F4B00DEF802 /* PizzaChallenge3Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB2D4B4F1A0B1F4B00DEF802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB2D4B2D1A0B1F4B00DEF802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB2D4B341A0B1F4B00DEF802;
+			remoteInfo = PizzaChallenge3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB2D4B351A0B1F4B00DEF802 /* PizzaChallenge3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaChallenge3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2D4B391A0B1F4B00DEF802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2D4B3A1A0B1F4B00DEF802 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB2D4B3C1A0B1F4B00DEF802 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB2D4B3D1A0B1F4B00DEF802 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB2D4B3F1A0B1F4B00DEF802 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB2D4B401A0B1F4B00DEF802 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB2D4B431A0B1F4B00DEF802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB2D4B451A0B1F4B00DEF802 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB2D4B481A0B1F4B00DEF802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB2D4B4E1A0B1F4B00DEF802 /* PizzaChallenge3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaChallenge3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2D4B531A0B1F4B00DEF802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2D4B541A0B1F4B00DEF802 /* PizzaChallenge3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaChallenge3Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB2D4B321A0B1F4B00DEF802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2D4B4B1A0B1F4B00DEF802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB2D4B2C1A0B1F4B00DEF802 = {
+			isa = PBXGroup;
+			children = (
+				FB2D4B371A0B1F4B00DEF802 /* PizzaChallenge3 */,
+				FB2D4B511A0B1F4B00DEF802 /* PizzaChallenge3Tests */,
+				FB2D4B361A0B1F4B00DEF802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB2D4B361A0B1F4B00DEF802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D4B351A0B1F4B00DEF802 /* PizzaChallenge3.app */,
+				FB2D4B4E1A0B1F4B00DEF802 /* PizzaChallenge3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB2D4B371A0B1F4B00DEF802 /* PizzaChallenge3 */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D4B3C1A0B1F4B00DEF802 /* AppDelegate.h */,
+				FB2D4B3D1A0B1F4B00DEF802 /* AppDelegate.m */,
+				FB2D4B3F1A0B1F4B00DEF802 /* ViewController.h */,
+				FB2D4B401A0B1F4B00DEF802 /* ViewController.m */,
+				FB2D4B421A0B1F4B00DEF802 /* Main.storyboard */,
+				FB2D4B451A0B1F4B00DEF802 /* Images.xcassets */,
+				FB2D4B471A0B1F4B00DEF802 /* LaunchScreen.xib */,
+				FB2D4B381A0B1F4B00DEF802 /* Supporting Files */,
+			);
+			path = PizzaChallenge3;
+			sourceTree = "<group>";
+		};
+		FB2D4B381A0B1F4B00DEF802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D4B391A0B1F4B00DEF802 /* Info.plist */,
+				FB2D4B3A1A0B1F4B00DEF802 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB2D4B511A0B1F4B00DEF802 /* PizzaChallenge3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D4B541A0B1F4B00DEF802 /* PizzaChallenge3Tests.m */,
+				FB2D4B521A0B1F4B00DEF802 /* Supporting Files */,
+			);
+			path = PizzaChallenge3Tests;
+			sourceTree = "<group>";
+		};
+		FB2D4B521A0B1F4B00DEF802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB2D4B531A0B1F4B00DEF802 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB2D4B341A0B1F4B00DEF802 /* PizzaChallenge3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2D4B581A0B1F4B00DEF802 /* Build configuration list for PBXNativeTarget "PizzaChallenge3" */;
+			buildPhases = (
+				FB2D4B311A0B1F4B00DEF802 /* Sources */,
+				FB2D4B321A0B1F4B00DEF802 /* Frameworks */,
+				FB2D4B331A0B1F4B00DEF802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzaChallenge3;
+			productName = PizzaChallenge3;
+			productReference = FB2D4B351A0B1F4B00DEF802 /* PizzaChallenge3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB2D4B4D1A0B1F4B00DEF802 /* PizzaChallenge3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2D4B5B1A0B1F4B00DEF802 /* Build configuration list for PBXNativeTarget "PizzaChallenge3Tests" */;
+			buildPhases = (
+				FB2D4B4A1A0B1F4B00DEF802 /* Sources */,
+				FB2D4B4B1A0B1F4B00DEF802 /* Frameworks */,
+				FB2D4B4C1A0B1F4B00DEF802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB2D4B501A0B1F4B00DEF802 /* PBXTargetDependency */,
+			);
+			name = PizzaChallenge3Tests;
+			productName = PizzaChallenge3Tests;
+			productReference = FB2D4B4E1A0B1F4B00DEF802 /* PizzaChallenge3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB2D4B2D1A0B1F4B00DEF802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "May Yang";
+				TargetAttributes = {
+					FB2D4B341A0B1F4B00DEF802 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FB2D4B4D1A0B1F4B00DEF802 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FB2D4B341A0B1F4B00DEF802;
+					};
+				};
+			};
+			buildConfigurationList = FB2D4B301A0B1F4B00DEF802 /* Build configuration list for PBXProject "PizzaChallenge3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB2D4B2C1A0B1F4B00DEF802;
+			productRefGroup = FB2D4B361A0B1F4B00DEF802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB2D4B341A0B1F4B00DEF802 /* PizzaChallenge3 */,
+				FB2D4B4D1A0B1F4B00DEF802 /* PizzaChallenge3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB2D4B331A0B1F4B00DEF802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2D4B441A0B1F4B00DEF802 /* Main.storyboard in Resources */,
+				FB2D4B491A0B1F4B00DEF802 /* LaunchScreen.xib in Resources */,
+				FB2D4B461A0B1F4B00DEF802 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2D4B4C1A0B1F4B00DEF802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB2D4B311A0B1F4B00DEF802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2D4B411A0B1F4B00DEF802 /* ViewController.m in Sources */,
+				FB2D4B3E1A0B1F4B00DEF802 /* AppDelegate.m in Sources */,
+				FB2D4B3B1A0B1F4B00DEF802 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2D4B4A1A0B1F4B00DEF802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2D4B551A0B1F4B00DEF802 /* PizzaChallenge3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB2D4B501A0B1F4B00DEF802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB2D4B341A0B1F4B00DEF802 /* PizzaChallenge3 */;
+			targetProxy = FB2D4B4F1A0B1F4B00DEF802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB2D4B421A0B1F4B00DEF802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2D4B431A0B1F4B00DEF802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB2D4B471A0B1F4B00DEF802 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2D4B481A0B1F4B00DEF802 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB2D4B561A0B1F4B00DEF802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB2D4B571A0B1F4B00DEF802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB2D4B591A0B1F4B00DEF802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PizzaChallenge3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB2D4B5A1A0B1F4B00DEF802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PizzaChallenge3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB2D4B5C1A0B1F4B00DEF802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PizzaChallenge3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PizzaChallenge3.app/PizzaChallenge3";
+			};
+			name = Debug;
+		};
+		FB2D4B5D1A0B1F4B00DEF802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PizzaChallenge3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PizzaChallenge3.app/PizzaChallenge3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB2D4B301A0B1F4B00DEF802 /* Build configuration list for PBXProject "PizzaChallenge3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2D4B561A0B1F4B00DEF802 /* Debug */,
+				FB2D4B571A0B1F4B00DEF802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2D4B581A0B1F4B00DEF802 /* Build configuration list for PBXNativeTarget "PizzaChallenge3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2D4B591A0B1F4B00DEF802 /* Debug */,
+				FB2D4B5A1A0B1F4B00DEF802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB2D4B5B1A0B1F4B00DEF802 /* Build configuration list for PBXNativeTarget "PizzaChallenge3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2D4B5C1A0B1F4B00DEF802 /* Debug */,
+				FB2D4B5D1A0B1F4B00DEF802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB2D4B2D1A0B1F4B00DEF802 /* Project object */;
+}
