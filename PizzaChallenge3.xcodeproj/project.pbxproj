@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB23C4BF1A0B3C740028C946 /* Pizzeria.m in Sources */ = {isa = PBXBuildFile; fileRef = FB23C4BE1A0B3C740028C946 /* Pizzeria.m */; };
 		FB2D4B3B1A0B1F4B00DEF802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D4B3A1A0B1F4B00DEF802 /* main.m */; };
 		FB2D4B3E1A0B1F4B00DEF802 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D4B3D1A0B1F4B00DEF802 /* AppDelegate.m */; };
 		FB2D4B411A0B1F4B00DEF802 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D4B401A0B1F4B00DEF802 /* RootViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB23C4BD1A0B3C740028C946 /* Pizzeria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizzeria.h; sourceTree = "<group>"; };
+		FB23C4BE1A0B3C740028C946 /* Pizzeria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizzeria.m; sourceTree = "<group>"; };
 		FB2D4B351A0B1F4B00DEF802 /* PizzaChallenge3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaChallenge3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2D4B391A0B1F4B00DEF802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB2D4B3A1A0B1F4B00DEF802 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB23C4C01A0B3C780028C946 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB23C4BD1A0B3C740028C946 /* Pizzeria.h */,
+				FB23C4BE1A0B3C740028C946 /* Pizzeria.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		FB2D4B2C1A0B1F4B00DEF802 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +97,7 @@
 				FB2D4B3D1A0B1F4B00DEF802 /* AppDelegate.m */,
 				FB2D4B3F1A0B1F4B00DEF802 /* RootViewController.h */,
 				FB2D4B401A0B1F4B00DEF802 /* RootViewController.m */,
+				FB23C4C01A0B3C780028C946 /* Model */,
 				FB2D4B421A0B1F4B00DEF802 /* Main.storyboard */,
 				FB2D4B451A0B1F4B00DEF802 /* Images.xcassets */,
 				FB2D4B471A0B1F4B00DEF802 /* LaunchScreen.xib */,
@@ -222,6 +235,7 @@
 				FB2D4B411A0B1F4B00DEF802 /* RootViewController.m in Sources */,
 				FB2D4B3E1A0B1F4B00DEF802 /* AppDelegate.m in Sources */,
 				FB2D4B3B1A0B1F4B00DEF802 /* main.m in Sources */,
+				FB23C4BF1A0B3C740028C946 /* Pizzeria.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +430,7 @@
 				FB2D4B5A1A0B1F4B00DEF802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB2D4B5B1A0B1F4B00DEF802 /* Build configuration list for PBXNativeTarget "PizzaChallenge3Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +439,7 @@
 				FB2D4B5D1A0B1F4B00DEF802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

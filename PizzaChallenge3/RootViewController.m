@@ -8,12 +8,13 @@
 
 #import "RootViewController.h"
 #import <CoreLocation/CoreLocation.h>
+#import "Pizzeria.h"
 @import MapKit;
 
 @interface RootViewController () <UITableViewDataSource, UITableViewDelegate, CLLocationManagerDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property CLLocationManager *manager;
-@property NSMutableArray *pizzeriaArray;
+@property (strong, nonatomic) CLLocationManager *manager;
+@property (strong, nonatomic) NSMutableArray *pizzeriaArray;
 
 @end
 
@@ -23,7 +24,7 @@
     [super viewDidLoad];
     self.pizzeriaArray = [NSMutableArray array];
     self.manager = [[CLLocationManager alloc]init];
-    [self.manager requestAlwaysAuthorization];
+    [self.manager requestWhenInUseAuthorization];
     self.manager.delegate = self;
 }
 
@@ -48,6 +49,8 @@
     {
         if (location.verticalAccuracy < 1000 && location.horizontalAccuracy <1000)
         {
+            NSLog(@"Found your location");
+
             [self reverseGeocode:location];
             [self.manager stopUpdatingLocation];
             break;
@@ -73,8 +76,14 @@
     [search startWithCompletionHandler:^(MKLocalSearchResponse *response, NSError *error) {
         NSArray *mapItems = response.mapItems;
 
-        [self.pizzeriaArray addObject:mapItems];
-        NSLog(@"%@", self.pizzeriaArray);
+        for (int i=0; i<=3; i++)
+        {
+            if (i < mapItems.count)
+            {
+                [self.pizzeriaArray addObject:mapItems[i]];
+            }
+        }
+        [self.tableView reloadData];
 
 //        MKMapItem *mapItem = mapItems.firstObject;
     }];
@@ -83,11 +92,15 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return self.pizzeriaArray.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return nil;
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    Pizzeria *pizzera = self.pizzeriaArray[indexPath.row];
+    cell.textLabel.text = pizzera.name;
+    return cell;
+    
 }
 @end
